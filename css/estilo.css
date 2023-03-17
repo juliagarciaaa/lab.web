@@ -1,13 +1,59 @@
 h1 {
-     color: brown ;
+     color: rgb(47, 0, 75) ;
+     border: 0.5 rem dotted rgb(61, 1, 1);
+     text-align: center;
     }
-h1#page1 {
-    color: rgb(87, 15, 15);
+    h2,h3,h4,h5,h6{
+        display: none;
+    }
+    body ul li{
+        color: rgb(52, 0, 82);
+    }
+    p{
+        text-decoration: underline rgb(66, 0, 75) 0.1rem;
+        text-align: center;
+    }
+    p.maiusculo{
+         text-transform: uppercase;
+         text-align: center;
+         letter-spacing: 1rem;
+         line-height: 2rem;
+         word-spacing: 2rem;
+         color: rgb(114, 0, 0);
+         font: italic small-caps bold 2rem monospace;
+         text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem rgb(55, 0, 71), 0 0 2rem darkblue;
+    }
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:rgb(50, 0, 70)
 }
-h1.page2 {
-    color: rgb(87, 15, 15);
+a:hover{
+    color: rgb(68, 2, 2);
 }
-body ul li {
-    color: black;
+footer{
+    font-size: 2rem;
+    clear: both;
+    background: black url(../img/650627.jpg)no-repeat left bottom;
+    height: 1rem;
 }
- 
+h1.page2{
+    color: darkslateblue;
+    border: 0.2 rem groove darkmagenta; 
+    border-radius: 0.5rem;
+}
+ol{
+    list-style-type: upper-roman;
+}
+section img{
+    float: left;
+}
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem
+}
+main.flexbox article{
+    background-color: rgba(134, 109, 109, 0.973);
+    margin: 1rem;
+    padding: 1rem;
+}
